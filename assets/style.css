@@ -1,0 +1,141 @@
+:root{
+    --cor--primaria-inicio: rgb(79, 188, 221);
+    --cor--hover-inicio: rgb(148, 197, 212);
+    --cor--secundaria-inicio: rgb(255, 255, 255);
+
+    --cor--primaria-sobreNos: rgb(79, 188, 221);
+    --cor--hover-sobreNos: rgb(148, 197, 212);
+    --cor--secundaria-sobreNos: rgb(255, 255, 255);
+
+    --cor--primaria-publicacoes: rgb(79, 188, 221);
+    --cor--hover-publicacoes: rgb(148, 197, 212);
+    --cor--secundaria-publicacoes: rgb(255, 255, 255);
+
+    --cor--primaria-biblioteca: rgb(79, 188, 221);
+    --cor--hover-biblioteca: rgb(148, 197, 212);
+    --cor--secundaria-biblioteca: rgb(255, 255, 255);
+
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+/*INICIO*/
+.btn-inicio{
+    background-color: var(--cor--primaria-inicio);
+    outline-color: none;
+    color: var(--cor--secundaria-inicio)
+}
+
+.btn-inicio:hover{
+    background-color: var(--cor--hover-inicio);
+}
+
+.btn-inicio:active{
+    color: var(--cor--primaria-inicio);
+    background-color: var(--cor--secundaria-inicio);
+}
+
+/*SOBRE NOS*/
+.btn-sobreNos{
+    background-color: var(--cor--primaria-sobreNos);
+    outline-color: none;
+    color: var(--cor--secundaria-sobreNos)
+}
+
+.btn-sobreNos:hover{
+    background-color: var(--cor--hover-sobreNos);
+}
+
+.btn-sobreNos:active{
+    color: var(--cor--primaria-sobreNos);
+    background-color: var(--cor--secundaria-sobreNos);
+}
+
+/*PUBLICAÇÕES*/
+.btn-publicacoes{
+    background-color: var(--cor--primaria-publicacoes);
+    outline-color: none;
+    color: var(--cor--secundaria-publicacoes)
+}
+
+.btn-publicacoes:hover{
+    background-color: var(--cor--hover-publicacoes);
+}
+
+.btn-publicacoes:active{
+    color: var(--cor--primaria-publicacoes);
+    background-color: var(--cor--secundaria-publicacoes);
+}
+
+/*BIBLIOTECA*/
+.btn-biblioteca{
+    background-color: var(--cor--primaria-biblioteca);
+    outline-color: none;
+    color: var(--cor--secundaria-biblioteca)
+}
+
+.btn-biblioteca:hover{
+    background-color: var(--cor--hover-biblioteca);
+}
+
+.btn-biblioteca:active{
+    color: var(--cor--primaria-biblioteca);
+    background-color: var(--cor--secundaria-biblioteca);
+}
+
+/*OPÇÃO BIBLIOTECA*/
+.btn-OpBiblioteca{
+    background-color: var(--cor--primaria-biblioteca);
+    outline-color: none;
+    color: var(--cor--secundaria-biblioteca)
+}
+
+.btn-OpBiblioteca:hover{
+    background-color: var(--cor--hover-biblioteca);
+}
+
+.btn-OpBiblioteca:active{
+    color: var(--cor--primaria-biblioteca);
+    background-color: var(--cor--secundaria-biblioteca);
+}
+
+
+.container{
+    background-color: var(--cor--hover-inicio);
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+}
+
+.titulo{
+    font-size: x-large;
+    text-align: center;
+}
+
+.container2{
+    background-color: var(--cor--hover-inicio);
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+}
+
+.titulobotao{
+    font-size: large;
+    
+}
+
+.textTabel{
+    font-size: large;
+}
+
+.contatos{
+    font-size: large;
+    text-align: right;
+}
